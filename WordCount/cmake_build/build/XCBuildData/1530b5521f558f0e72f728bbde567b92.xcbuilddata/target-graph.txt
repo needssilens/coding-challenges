@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'ALL_BUILD' in project 'ccwc'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ccwc'
+➜ Explicit dependency on target 'ccwc' in project 'ccwc'
+Target 'ccwc' in project 'ccwc'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'ccwc'
+Target 'ZERO_CHECK' in project 'ccwc' (no dependencies)

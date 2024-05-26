@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		28B669C580B74CD1BB52083C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 130402923ED849119ABC23E4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C633C2F3C24EE9A567338AD5 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8E7B1781D4974F8EB29E415F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BFD92760108B4DB59BD8E362 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0FDECFD2702D647B806AC366 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				BED5B0B92D4846E3BDA5B381 /* PBXTargetDependency */,
+				852C7F463F7D4B63860C6CBF /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B9B3C73221E94DCB936E69C5 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/main.cpp */ = {isa = PBXBuildFile; fileRef = 946FD4EE27AB41F69914C293 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/main.cpp */; };
+		D91FE09197D043C8B7F00202 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A92D856A977D4540BDB79767 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3A9203441ED64F69AF7D6641 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		766A1A9F915248DE8A0FBE5D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		85557599D770474284F9557D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A620D9931E5B4F8D8E5C573B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		53723F0BB7AC4F3F948CD5A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA8284DCC54DDAAF733192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B6F0B37984A4B2EBF97BA69;
+			remoteInfo = ccwc;
+		};
+		8B2D2ACFB032495A89A8E76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA8284DCC54DDAAF733192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B669C580B74CD1BB52083C;
+			remoteInfo = ZERO_CHECK;
+		};
+		9AD53D38E4D34287BE3BE656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EA8284DCC54DDAAF733192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B669C580B74CD1BB52083C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1071A2B7A0EC40D3A4305606 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		728C6D6FF71344C6B71622CD /* ccwc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ccwc; sourceTree = BUILT_PRODUCTS_DIR; };
+		946FD4EE27AB41F69914C293 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		A92D856A977D4540BDB79767 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2D415B341B4AE78C0C1D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA31504800945CD9212EE1E = {
+			isa = PBXGroup;
+			children = (
+				1A3AC00F92064E928BA26BB4 /* ccwc */,
+				58D047A2AB7D486682E2F4EA /* ALL_BUILD */,
+				4B279AAC7459405EA830512A /* Products */,
+				5679DA0B84544D7F97AC2DC2 /* Frameworks */,
+				A358805E28B94FD895A69D12 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3AC00F92064E928BA26BB4 /* ccwc */ = {
+			isa = PBXGroup;
+			children = (
+				3D0DE4623348467EBBB6315B /* Source Files */,
+				A92D856A977D4540BDB79767 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */,
+			);
+			name = ccwc;
+			sourceTree = "<group>";
+		};
+		3D0DE4623348467EBBB6315B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				946FD4EE27AB41F69914C293 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4B279AAC7459405EA830512A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728C6D6FF71344C6B71622CD /* ccwc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5679DA0B84544D7F97AC2DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58D047A2AB7D486682E2F4EA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D4B016C8281046BDB4D8DCE1 /* CMake Rules */,
+				1071A2B7A0EC40D3A4305606 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A358805E28B94FD895A69D12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D4B016C8281046BDB4D8DCE1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B6F0B37984A4B2EBF97BA69 /* ccwc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C45550334A3422D994C057C /* Build configuration list for PBXNativeTarget "ccwc" */;
+			buildPhases = (
+				DF87AD0C372649AE8E2B9597 /* Sources */,
+				AB2D415B341B4AE78C0C1D61 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599FB09EEC8E4D7FA2FC77B0 /* PBXTargetDependency */,
+			);
+			name = ccwc;
+			productName = ccwc;
+			productReference = 728C6D6FF71344C6B71622CD /* ccwc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EA8284DCC54DDAAF733192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = 2998169163BA4B85833CF241 /* Build configuration list for PBXProject "ccwc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				A620D9931E5B4F8D8E5C573B /* Debug */,
+				3A9203441ED64F69AF7D6641 /* Release */,
+				766A1A9F915248DE8A0FBE5D /* MinSizeRel */,
+				85557599D770474284F9557D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 0EA31504800945CD9212EE1E;
+			projectDirPath = /Users/j1012505/Data/Learning/LearningCpp/WordCount;
+			projectRoot = "";
+			targets = (
+				8E7B1781D4974F8EB29E415F /* ALL_BUILD */,
+				28B669C580B74CD1BB52083C /* ZERO_CHECK */,
+				4B6F0B37984A4B2EBF97BA69 /* ccwc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FDECFD2702D647B806AC366 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C633C2F3C24EE9A567338AD5 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  make -f /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  make -f /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  make -f /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build
+  make -f /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF87AD0C372649AE8E2B9597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3C73221E94DCB936E69C5 /* /Users/j1012505/Data/Learning/LearningCpp/WordCount/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		599FB09EEC8E4D7FA2FC77B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B669C580B74CD1BB52083C /* ZERO_CHECK */;
+			targetProxy = 9AD53D38E4D34287BE3BE656 /* PBXContainerItemProxy */;
+		};
+		852C7F463F7D4B63860C6CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B6F0B37984A4B2EBF97BA69 /* ccwc */;
+			targetProxy = 53723F0BB7AC4F3F948CD5A1 /* PBXContainerItemProxy */;
+		};
+		BED5B0B92D4846E3BDA5B381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B669C580B74CD1BB52083C /* ZERO_CHECK */;
+			targetProxy = 8B2D2ACFB032495A89A8E76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14B25A9A9E794365A293E93D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		16F129EDAFF34B6C954FB3CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccwc;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build/ccwc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2918A807AF6845DEA79D544A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2CA42D52270840A2ABD75803 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build;
+			};
+			name = MinSizeRel;
+		};
+		3056CD180C724E4D8E59FA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4AF90060ED1E481197D2785C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		58CBD52E1FDD4768A11DB396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build;
+			};
+			name = Release;
+		};
+		648343D4B42E4266AF035C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build;
+			};
+			name = Debug;
+		};
+		67F298723B084BA5A3FD73FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7D0EEC9329A84369ADEE62BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccwc;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build/ccwc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8CE6BEC9096741CFAEB38D00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AA2883A2BB4D4CBF8B5FD72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B74E249C73914CECB4BE1850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D54C5A2C8E31471994908C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccwc;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build/ccwc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D80723B878044A01B09EE5D8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4437D6DA4484C4CB99C9817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccwc;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/build/ccwc.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130402923ED849119ABC23E4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F298723B084BA5A3FD73FE /* Debug */,
+				3056CD180C724E4D8E59FA19 /* Release */,
+				4AF90060ED1E481197D2785C /* MinSizeRel */,
+				2918A807AF6845DEA79D544A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2998169163BA4B85833CF241 /* Build configuration list for PBXProject "ccwc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648343D4B42E4266AF035C4F /* Debug */,
+				58CBD52E1FDD4768A11DB396 /* Release */,
+				2CA42D52270840A2ABD75803 /* MinSizeRel */,
+				14B25A9A9E794365A293E93D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C45550334A3422D994C057C /* Build configuration list for PBXNativeTarget "ccwc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4437D6DA4484C4CB99C9817 /* Debug */,
+				D54C5A2C8E31471994908C29 /* Release */,
+				7D0EEC9329A84369ADEE62BC /* MinSizeRel */,
+				16F129EDAFF34B6C954FB3CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BFD92760108B4DB59BD8E362 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74E249C73914CECB4BE1850 /* Debug */,
+				AA2883A2BB4D4CBF8B5FD72D /* Release */,
+				8CE6BEC9096741CFAEB38D00 /* MinSizeRel */,
+				D80723B878044A01B09EE5D8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EA8284DCC54DDAAF733192 /* Project object */;
+}
