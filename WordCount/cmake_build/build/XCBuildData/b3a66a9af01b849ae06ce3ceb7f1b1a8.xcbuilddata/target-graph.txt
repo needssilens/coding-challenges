@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'ccwc' in project 'ccwc'
-➜ Explicit dependency on target 'ZERO_CHECK' in project 'ccwc'
-Target 'ZERO_CHECK' in project 'ccwc' (no dependencies)

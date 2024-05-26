@@ -1,3 +1,0 @@
-/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeFiles/ccwc.dir
-/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeFiles/ALL_BUILD.dir
-/Users/j1012505/Data/Learning/LearningCpp/WordCount/cmake_build/CMakeFiles/ZERO_CHECK.dir
